@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+
+
+
+
+/* form styling */
+
+#formcol1 li {   
+	list-style:none;
+}
+
+
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+div#formcol1 {
+	
+	float:left;	
+	width: 100%;
+}
+
+div#formcol1 label {
+	float:left;
+	width:8.3em;
+	text-align:right;
+	display:block;
+	padding-right:.3em;	
+	
+	clear:right;
+	}
+	
+
+div#formcol1 ul li {
+	list-style-type:none;
+	margin-left:-2em;
+	margin-bottom:.4em;
+	}
+
+	
+div#formcol1 input {
+	
+	margin-left:1.5em;
+	text-align:left;
+	display:block;
+	clear:right;
+	background-color:#F4F4F4;
+	}
+#formcol1 input.reqfield {
+		background:#FF9;
+	}
+	
+
+/* div for radio buttons and check boxes */
+
+#multchoice {
+	clear:left;
+	margin-left:1%;	
+}
+
+#multchoice input, #multchoice span {
+	float:left;
+}
+
+#multchoice span {	
+	margin: 0 .3em;
+}
+
+.submit-button {
+	margin:2em 0;
+	float:right;
+	width:70%;
+}
+
+label {
+	margin-right: .3em;
+	width: 3em;  /* changed from 6.3em */
+	display: inline-block; /* width will not work for “inline” elements such as “label”. Therefore we need to set it to “inline-block” */
+	text-align: left
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label, input:active + label, label[for]:focus, label[for]:active {
+	color: rgb(249, 114, 3) !important;
+	background-color: #0c00ef !important;}
+		
+
+/* end of form css */
+	
